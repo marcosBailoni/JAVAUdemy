@@ -1,0 +1,16 @@
+package fundamentos;
+
+public class DesafioAritmeticos {
+	
+	public static void main(String[] args) {
+		
+		int exp1 = 2;
+		int exp2 = 3;
+		double p1 = 6 * (3 +2);
+		p1 = Math.pow(p1, 2);
+		
+	}
+
+}
+
+

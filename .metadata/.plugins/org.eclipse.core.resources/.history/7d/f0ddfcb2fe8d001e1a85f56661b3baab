@@ -1,0 +1,13 @@
+package fundamentos;
+
+public class DesafioOperadoresLogicos {
+
+	public static void main(String[] args) {
+		
+		boolean trabalho1 = true;
+		boolean trabalho2 = false;
+		
+		boolean tv50 = trabalho1 && trabalho2;
+		System.out.println(tv50);
+	}
+}

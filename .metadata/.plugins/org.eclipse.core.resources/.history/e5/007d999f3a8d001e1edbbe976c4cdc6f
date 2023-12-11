@@ -1,0 +1,24 @@
+package fundamentos;
+
+public class ConversaroNumeroString {
+	
+	public static void main(String[] args) {
+		
+		Integer num1 = 1000;
+		System.out.println(num1.toString().length());
+		
+//		convertendo num1 pra string e depois contando quantos caracteres possui na string
+	
+//		fazendo usando variaveis:
+		
+		String texto = num1.toString();
+		System.out.println(texto + "!!!");
+		System.out.println(texto.length());
+		
+		int num2 = 5;
+		String texto2 = Integer.toBinaryString(num2);
+		System.out.println(texto2);
+	
+	}
+
+}

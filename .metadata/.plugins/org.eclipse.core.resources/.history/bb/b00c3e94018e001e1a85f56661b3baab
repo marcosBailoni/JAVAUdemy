@@ -1,0 +1,21 @@
+package fundamentos;
+
+public class DesafioOperadoresLogicos {
+
+	public static void main(String[] args) {
+		
+		Boolean trabalho1 = true;
+		Boolean trabalho2 = true;
+		
+		boolean tv50 = trabalho1 && trabalho2;
+		System.out.println("A televisão de 50 pol foi comprada: " + tv50);
+		
+		boolean tv32 = trabalho1 ^ trabalho2;
+		System.out.println("A televisão de 50 pol foi comprada:" + tv32);
+		
+		Boolean sorvete = trabalho1 || trabalho2;
+		System.out.println("Tomaram sorvete ? : " + sorvete.toString().replace(true, "sim"));
+		
+		
+	}
+}

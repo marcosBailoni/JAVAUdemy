@@ -1,0 +1,26 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioConversao {
+
+//	desafio consiste em receber 3 valores pelo scanner, somar e fazer uma média
+	
+	public static void main(String[] args) {
+	
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o primeiro salário");
+		String primeiro = entrada.nextLine();
+
+		System.out.println("Digite o segundo salário");
+		String segundo= entrada.nextLine();
+		
+		System.out.println("Digite o terceiro salário");
+		String terceiro = entrada.nextLine();
+		
+		primeiro = primeiro.replace(",", ".");
+		System.out.println(primeiro);
+		entrada.close();
+	}
+}

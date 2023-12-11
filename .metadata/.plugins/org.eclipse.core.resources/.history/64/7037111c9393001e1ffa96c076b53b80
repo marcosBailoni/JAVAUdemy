@@ -1,0 +1,22 @@
+package estruturasDeControle;
+
+import java.util.Scanner;
+
+//4. Criar um programa que receba um número e diga se ele é um número primo.
+
+public class DesafioNumeroPrimo {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Digite um número inteiro para sabermos se é primo: ");
+		int numero = entrada.nextInt();
+
+		for (int divisor = numero -1; divisor == 1; divisor--)
+			System.out.println(divisor);
+			
+		entrada.close();
+
+	}
+}

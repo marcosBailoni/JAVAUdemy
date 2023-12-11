@@ -1,0 +1,28 @@
+package fundamentos;
+
+public class Wrappers {
+	
+	public static void main(String[] args) {
+		
+//		byte
+		Byte b = 5;
+		
+//		short
+		Short s = 200;
+		
+//		int
+		Integer i = 1000;
+		
+//		long
+		Long l = 10000L; 
+		
+		String palavra = ("Exemplo");
+		
+		
+		
+//		Integer teste = Integer.parseInt(palavra);
+//		
+//		System.out.println(teste);
+	}
+
+}

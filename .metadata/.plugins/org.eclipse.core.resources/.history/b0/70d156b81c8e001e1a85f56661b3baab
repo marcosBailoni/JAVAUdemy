@@ -1,0 +1,12 @@
+package fundamentos;
+
+public class OperadoresRelacionais {
+
+	public static void main(String[] args) {
+		
+		int a = 97;
+		int b = 'a'; // a na tabela universal é igual a 97;
+		
+		System.out.println(a == b);
+	}
+}

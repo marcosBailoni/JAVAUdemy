@@ -1,0 +1,18 @@
+package fundamentos;
+
+public class ConversaoTipoPrimitivoNumerico {
+
+	public static void main(String[] args) {
+		
+		double a = 1;
+		System.out.println(a);
+//		conversão implicita (o JAVA converteu 1 para 1.0 / int para double automaticamente)
+	
+	
+		double b = 2.0;
+//		int c = b; Não aceita, pois o JAva valida que double é maior que int, e poderá haver perda de informações
+		int c = (int) b;
+		System.out.println(c);
+	
+	}
+}

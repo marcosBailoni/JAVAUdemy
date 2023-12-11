@@ -1,0 +1,22 @@
+package fundamentos;
+
+public class Inferencia {
+	
+	public static void main(String[] args) {
+		
+		double a = 4.5;
+		
+		int b = 4;
+		
+		String c = "texto";
+		
+		var d = 1.5;
+//		A atribuição var, faz com que o JAVA defina o tipo da variável 
+//		automaticamente, levando em consideração o valor da variável
+		
+		System.out.println(a);
+		a = 1;
+		System.out.println(a);
+	}
+
+}

@@ -1,0 +1,33 @@
+package fundamentos;
+
+public class DesafioAritmeticos {
+	
+	public static void main(String[] args) {
+		
+
+		double a = Math.pow(6 * (3+2),2);
+		double b = 3 * 2;
+		double c = Math.pow((1-5) * (2-7), 2);
+		double d = 2;
+		
+		double calculo1 = (a / b) - (c / d);
+		double total = Math.pow(calculo1, 3);
+		
+		System.out.println(total);
+		
+		
+		
+		
+//		double p1 = Math.pow(6 *(3+2), 2) / (3 * 2);
+//		
+//		double p2 = 6 * (3 +2);
+//		p2 = Math.pow(p2, 2);
+//		p2 = p2 / (3 * 2);
+//		
+//		System.out.println(p1);
+//		System.out.println(p2);
+	}
+
+}
+
+

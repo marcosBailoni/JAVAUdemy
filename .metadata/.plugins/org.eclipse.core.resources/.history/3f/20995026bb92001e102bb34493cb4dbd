@@ -1,0 +1,39 @@
+package estruturasDeControle;
+
+import java.util.Scanner;
+public class DesafioWhile {
+
+	//criar um programa que leia as notas passadas ( 0 - 10) e no final calcule a média;
+	
+	
+	
+	public static void main(String[] args) {
+	
+		double nota= 0;
+		int contador = 0;
+		int totalNotas = 0;
+		
+		// double media = totalNotas / contador;
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		while (nota != -1) {
+			System.out.println("Digite uma nota ou -1 pra calcular a média: ");
+			nota = entrada.nextDouble();
+			
+			if(nota >= 0 && nota <= 10) {
+				totalNotas += nota;
+				contador++;
+				
+			} else if (nota < -1) {
+				System.out.println("nota digitada incorreta, tente novamente.");
+			}
+		}
+		
+		System.out.println("A média é de: " + totalNotas / contador);
+		
+		entrada.close();
+	}
+}
+
+//https://youtu.be/r_GMO0n7Rec
