@@ -31,7 +31,7 @@ public class Produto {
 
 //	 quando chamar o metodo, só será usado o de baixo, se passar algum parâmetro;
 	double precoComDesconto (double descontoGerente) {
-		return (1 - (desconto + descontoGerente)) * preco;
+		return (1 - desconto + descontoGerente) * preco;
 	}
 	
 

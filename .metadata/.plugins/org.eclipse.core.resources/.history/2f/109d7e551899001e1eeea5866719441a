@@ -17,7 +17,7 @@ public class ProdutoTeste {
 //		p2.desconto = 0.12;
 		
 		double precoFinalP1 = p1.precoComDesconto();
-		double precoFinalP2 = p2.precoComDesconto(0.1);
+		double precoFinalP2 = p2.precoComDesconto();
 		
 		System.out.printf("O preço final do produto %s é de R$%.2f.", p1.nome, precoFinalP1);
 		System.out.println();

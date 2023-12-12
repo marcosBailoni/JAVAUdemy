@@ -1,0 +1,21 @@
+package Classe;
+
+public class Produto {
+	
+	String nome;
+	double preco;
+	double desconto;
+	
+	// metodos com o mesmo nome, mas um recebe parâmetro e outro não.
+	double precoComDesconto () {
+		return (1 - desconto) * preco;
+	}
+
+	// quando chamar o metodo, só será usado o de baixo, se passar algum parâmetro;
+	double precoComDesconto (double descontoGerente) {
+		return (1 - desconto + descontoGerente) * preco;
+	}
+	
+
+
+}
