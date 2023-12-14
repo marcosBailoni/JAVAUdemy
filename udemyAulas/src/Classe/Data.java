@@ -20,10 +20,13 @@ public class Data {
 		this.ano = ano;	
 	}
 	
+//	Dentro do metodo abaixo, foi criado uma variável local "formato", essa variável só é acessível dentro do metodo,
+//	já que é uma variável local e precisa ser inicializada explicitamente (definindo seu valor)
 	
 	String dataFormatada () {
 //		os dois returns funcionam: 
 //		return dia + "/" + mes +  "/" + ano;
-		return String.format("%d/%d/%d", dia, mes, ano);
+		final String formato = "%d/%d/%d";
+		return String.format(formato, dia, mes, ano);
 	}
 }

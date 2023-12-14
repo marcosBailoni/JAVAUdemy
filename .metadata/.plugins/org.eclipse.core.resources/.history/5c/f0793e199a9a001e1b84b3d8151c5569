@@ -1,0 +1,19 @@
+package desafioFinalClasse;
+
+public class comida {
+
+	String nome;
+	double peso;
+	
+//	Construtores
+	
+	comida () {
+		
+	}
+	
+	comida (String nome, double peso){
+		this.nome = nome;
+		this.peso = peso;
+	}
+	
+}
