@@ -1,0 +1,28 @@
+package classe;
+
+public class Equals {
+
+
+	public static void main(String[] args) {
+		
+		Usuario u1 = new Usuario();
+		u1.nome = "Fulano";
+		u1.email = "fulano@gmail.com";
+		
+		
+		Usuario u2 = new Usuario();
+		u2.nome = "Fulano";
+		u2.email = "fulano@gmail.com";
+	
+	
+		System.out.println(u1); 
+	
+	
+	
+	
+	
+	
+	}
+
+
+}
