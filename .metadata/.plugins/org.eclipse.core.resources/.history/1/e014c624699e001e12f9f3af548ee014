@@ -1,0 +1,52 @@
+package colecoes;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ConjuntoBaguncado {
+
+	public static void main(String[] args) {
+		
+		HashSet conjunto = new HashSet();
+		
+//		Adicionar objetos em conjunto;
+		conjunto.add(1.2);
+		conjunto.add("Teste");
+		conjunto.add(1);
+		conjunto.add(true);
+		conjunto.add('x');
+		
+//		Usar size() e não length para collections; 
+		System.out.println(conjunto.size());
+		
+//		No set, não é possível adicionar elementos iguais, ele ignora apenas;
+		
+		conjunto.add("Teste");
+		conjunto.add(1);
+		System.out.println(conjunto.size());
+		
+//		Remover objetos de conjunto: 
+		conjunto.remove("Teste");
+		conjunto.remove(1);
+		System.out.println(conjunto.size());
+//		usar contains() para verificar se possui algo dentro do set:
+		
+		
+		System.out.println(conjunto.contains(1.2));
+		System.out.println(conjunto.contains("Teste")); // valor foi apagado anteriormente do conjunto;
+		System.out.println(conjunto.contains('x')); 
+		
+//		Criando outro set de outra forma
+		Set<E> nums = new HashSet();
+		
+		nums.add(1);
+		nums.add(2);
+		nums.add(3);
+		
+		System.out.println(nums);
+		System.out.println(conjunto);
+		
+		
+
+	}
+}
