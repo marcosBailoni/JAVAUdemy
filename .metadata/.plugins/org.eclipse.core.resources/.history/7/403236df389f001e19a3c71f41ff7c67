@@ -15,7 +15,6 @@ public class Pilha {
 		livros.push("O Hobbit");// retora exceção caso não consiga adicionar o livro corretamente.
 		livros.add("Don Quixote");
 		
-		//Aceita forEach
 		for(String livro: livros)
 			System.out.println(livro);
 			

@@ -1,0 +1,27 @@
+package colecoes;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Mapa {
+	
+	public static void main(String[] args) {
+		
+		Map<Integer, String> usuarios = new HashMap<>();
+		
+//		No map, não se usa add, usa-se o PUT que adiciona o elemento caso não exista ou edita, caso já tenha;
+		
+		usuarios.put(1, "Roberto");
+		usuarios.put(2, "Ricardo");
+		usuarios.put(150, "Rafaela");
+		usuarios.put(4, "Rebeca");
+		
+		System.out.println(usuarios.size()); // retorna a quantidade de elementos dentro do map;
+		System.out.println(usuarios.isEmpty()); //Verifica se está vázio; 
+		
+		System.out.println(usuarios.keySet().toString()); // retorna em String
+ 		
+		
+	}
+
+}
