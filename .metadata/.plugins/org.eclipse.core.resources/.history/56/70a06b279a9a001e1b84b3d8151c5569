@@ -1,7 +1,0 @@
-package desafioFinalClasse;
-
-public class Jantar {
-	
-	comida c1 = new comida()
-
-}

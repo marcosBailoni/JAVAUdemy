@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="fundamentosExerciciosFinais.Temperatura"/>
     <fullyQualifiedTypeName name="javax.management.openmbean.OpenMBeanAttributeInfo"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="classe.AreaCirc"/>
     <fullyQualifiedTypeName name="classe.Produto"/>
     <fullyQualifiedTypeName name="classe.Produto2"/>
@@ -26,4 +25,5 @@
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.security.KeyStore.Entry"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>
