@@ -34,6 +34,9 @@ public class CarroTeste {
 		
 		c1.frear();
 		System.out.println("depois de frear, giros: " + c1.motor.giros());
+		
+		System.out.println("Porta 1 está aberta ? " + c1.p1.estaAberta);
+		System.out.println("Porta2 está aberta ?: " + c1.p2.estaAberta);
 	
 	}
 	

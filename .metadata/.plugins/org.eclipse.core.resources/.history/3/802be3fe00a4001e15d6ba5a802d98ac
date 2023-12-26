@@ -1,0 +1,11 @@
+package oo.composicao;
+
+public class CarroTestePortas {
+	
+	Carro c2 = new Carro();
+	
+	
+	
+	
+
+}
