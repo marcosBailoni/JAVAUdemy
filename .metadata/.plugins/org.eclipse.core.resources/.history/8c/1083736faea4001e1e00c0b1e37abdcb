@@ -1,0 +1,14 @@
+package oo.composicao.primeiroDesafio;
+
+import java.util.ArrayList;
+
+public class Cliente {
+
+	String nome; 
+	
+	ArrayList<Compra> compras = new ArrayList<>();
+	
+	void addCompras(Compra compra) {
+		compras.add(compra);
+	}
+}
