@@ -11,7 +11,7 @@ public class Compra {
 	}
 //	Nesse método, adiciona o item no ArrayList, criando o produto, dentro da criação do item;
 	void addItem(String nome, double preco, int quantidade) {
-		itens.add(new Item(quantidade, new Produto(nome, preco)));
+		addItem(new Item(quantidade, new Produto(nome, preco)));
 	}
 	
 	double total;	
