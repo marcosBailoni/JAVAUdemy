@@ -1,0 +1,20 @@
+package oo.heranca;
+
+public class Jogador {
+
+	int x;
+	int y;
+	
+	void andar(Direcao direcao) {
+		if (direcao == Direcao.NORTE && y > 0) {
+			y--;
+		} else if (direcao == Direcao.SUL && y < 100) {
+			y++;
+		} else if(direcao == Direcao.LESTE && x < 100) {
+			x++;
+		} else if(direcao == Direcao.OESTE && x > 0) {
+			x--;
+		} 
+		
+	}
+}

@@ -1,0 +1,16 @@
+package oo.heranca.desafio;
+
+public class TesteCarro {
+
+	public static void main(String[] args) {
+		
+		Carro civic = new Civic();
+		Carro ferrari = new Ferrari();
+		
+		System.out.println(civic.velocidadeAtual);
+		System.out.println(ferrari.velocidadeAtual);
+	
+	
+	}
+
+}

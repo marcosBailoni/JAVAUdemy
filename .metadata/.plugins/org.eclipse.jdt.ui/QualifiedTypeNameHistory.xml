@@ -28,4 +28,5 @@
     <fullyQualifiedTypeName name="oo.composicao.Item"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="oo.heranca.Jogador"/>
 </qualifiedTypeNameHistroy>

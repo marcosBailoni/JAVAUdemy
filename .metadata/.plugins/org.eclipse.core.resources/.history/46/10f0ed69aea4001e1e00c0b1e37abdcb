@@ -1,8 +1,0 @@
-package oo.composicao.primeiroDesafio;
-
-public class Produto {
-	
-	String nome;
-	double preco;
-
-}

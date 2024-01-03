@@ -1,6 +1,0 @@
-package oo.composicao;
-
-public class Porta {
-
-	boolean estaAberta = false;
-}

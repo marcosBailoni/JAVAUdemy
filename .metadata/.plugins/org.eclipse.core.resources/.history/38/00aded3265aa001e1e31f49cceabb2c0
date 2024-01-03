@@ -1,0 +1,27 @@
+package oo.heranca.desafio;
+
+public class Carro {
+
+	int velocidadeAtual;
+	
+	boolean acelerar() {
+		velocidadeAtual += 5;
+		return true;
+	}
+	
+	boolean frear() {
+		if(velocidadeAtual >= 5) {
+			velocidadeAtual -= 5;
+			return true;
+			
+		} else if (velocidadeAtual > 0 && velocidadeAtual < 5) {
+			velocidadeAtual = 0;
+			return true;
+			
+		} else {
+			return false;
+		}
+	
+	
+	}
+}
