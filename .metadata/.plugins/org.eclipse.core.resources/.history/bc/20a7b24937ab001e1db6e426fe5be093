@@ -1,0 +1,18 @@
+package oo.heranca.desafio;
+
+public class Civic extends Carro{
+	
+	public Civic() {
+		super(212);
+		delta = 5;
+	}
+
+	public Civic(int VELOCIDADE_MAXIMA) {		
+		super(VELOCIDADE_MAXIMA);
+		delta = 5;
+	}
+	
+	
+	
+	
+}

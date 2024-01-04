@@ -3,14 +3,14 @@ package oo.heranca;
 public class Heroi extends Jogador{
 	
 	
-	Heroi(int x, int y) {
+	public Heroi(int x, int y) {
 		super(x, y);		
 	}
 	
 	
 	
 	//Reescreve o método da classe, para que o atk do heroi passe 20 de dano, e não 10 como é na classe pai (jogador);
-	boolean atacar (Jogador oponente) {
+	public boolean atacar (Jogador oponente) {
 		int deltaX = Math.abs(x - oponente.x);
 		int deltaY = Math.abs(y - oponente.y);
 		
