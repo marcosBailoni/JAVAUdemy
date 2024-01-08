@@ -40,6 +40,7 @@ public class TesteCarro {
 		ferrari.frear();
 		ferrari.frear();
 		ferrari.frear();
+		System.out.println("velocidade do ar: " + ferrari.valocidadeDoAr());
 		
 		//mesmo freando várias vezes, a velocidadeAtual não diminui mais que zero: 
 		System.out.println(ferrari.velocidadeAtual);
