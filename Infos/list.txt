@@ -1,0 +1,6 @@
+List
+	pode ser heterogeneo
+	pode ser homogeneo
+	aceita obj duplicados
+	é ordenado
+	é indexado

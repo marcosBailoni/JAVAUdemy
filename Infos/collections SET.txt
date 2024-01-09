@@ -1,0 +1,8 @@
+set > HashSet
+	pode ser heterogeneo
+	pode ser homogeneo
+	nao aceita obj duplicados
+	pode ser ordenado
+	nao é indexado
+
+

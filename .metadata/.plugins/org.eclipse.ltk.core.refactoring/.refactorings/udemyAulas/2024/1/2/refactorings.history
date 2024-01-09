@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CalculoTeste2Lambda.java&apos; to &apos;lambdas.CalculoTeste2Lambda.java&apos;&#x0D;&#x0A;- Original project: &apos;udemyAulas&apos;&#x0D;&#x0A;- Destination element: &apos;lambdas.CalculoTeste2Lambda.java&apos;&#x0D;&#x0A;- Original element: &apos;lambdas.CalculoTeste2Lambda.java&apos;" description="Copy compilation unit" destination="/src&lt;lambdas{CalculoTeste2Lambda.java" element1="/src&lt;lambdas{CalculoTeste2Lambda.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1704812504188" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+polimorfismo
+	multiplas formas
+	Estático: Sobrecarga
+		um mesmo método, funcionando de várias formas;
+		ex: um método com mesmo nome, repetido 3x, mudando os parâmetros;
+		algo pré programado, que fica fixo após digitar o código.
+	
+	Dinâmico: A partir da Herança;
+		Pode mudar conforme o código é executado
+
+		Carro c = new Civic;
+		c = Ferrari;
+
+		Estanciar um tipo mais especifico(civic) e atribuir pra um tipo mais genérico(carro);
+		Com isso, a variável fica genérica podendo ser atribuido para c: qualquer outro carro; 
+		Civic não pode ser uma Ferrari, mas um Carro pode;
+
+		Um método que recebe carro como parâmetro, pode receber qualquer outra subclasse com herança da classe carro
+		Ex: void acelerar (Carro c){}
+		O parâmetro, pode ser um civic, uma ferrari ou qualquer outra classe de carro filha da classe Carro;
+		
+
+		
+---

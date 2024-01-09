@@ -1,0 +1,74 @@
+Encapsulamento
+	"Esconder" parte do "código"/"objeto", de forma que não interfere no uso, mas como forma de segurança
+
+	-Private = mais restrito (só é visível de dentro da mesma classe)
+	-Packge = Default (vem por padrão sem digitar nada) (visibilidade de dentro do mesmo pacote)
+	-Protected (VISIBILIDADE igual ao package = dentro do mesmo pacote, mas também passa pra outras classes via herança)
+	-Public (mais abrangente) (visibilidade total)
+--
+Herança 
+	Reuso de código (além da herança, existe a composição, que tem como referência "tem um" (EX:CARRO tem um MOTOR, CARRO tem 	PORTAS));
+	
+	herança: relação "é um", por exemplo:
+	CIVIC é um CARRO
+	GATO é um MAMÍFERO
+	MAÇA é uma FRUTA
+	
+	extends - palavra reservada;
+
+
+	Interface - (no lugar de classe)
+	Recebe metodos sem corpo, ex: 
+	void ligarTurbo();
+	void desligarTurbo();
+
+	palavra reservada implements;
+
+	esses metodos serão herdados pelas classes filhas, de forma que na classe mais abaixo, o metódo deverá ser implementado.
+
+
+polimorfismo
+	(multiplas formas)
+	- Estático: Sobrecarga
+		ex: um mesmo método, funcionando de várias formas;
+		ex: um método com mesmo nome, repetido 3x, mudando os parâmetros;
+		algo pré programado, que fica fixo após digitar o código.
+	
+	- Dinâmico: A partir da Herança;
+		Pode mudar conforme o código é executado
+
+		Carro c = new Civic;
+		c = Ferrari;
+
+		Estanciar um tipo mais especifico(civic) e atribuir pra um tipo mais genérico(carro);
+		Com isso, a variável fica genérica podendo ser atribuido para c: qualquer outro carro; 
+		Civic não pode ser uma Ferrari, mas um Carro pode;
+
+		Um método que recebe carro como parâmetro, pode receber qualquer outra subclasse com herança da classe carro
+		Ex: void acelerar (Carro c){}
+		O parâmetro, pode ser um civic, uma ferrari ou qualquer outra classe de carro filha da classe Carro;
+----
+
+
+Abstração
+	abstrair a complexidade do mundo real de forma simplificada para o software;	
+
+
+---------------
+
+Classe concreta - 100% dos metodos implementados 
+
+Interface - 0% dos metodos implementados 
+
+Classe abstrata - métodos implementados ou não; Não pode ser instanciada: Não se pode criar objetos a partir dessa classe; 
+	Usada como superclasse, para ser herança de outras classes;
+
+
+
+
+
+----
+
+Lambdas - funcao que irá substituir o método abstrato da interface:
+	@FunctionalInterface 
+	interface funcional = poderá conter somente um método abstrato, para usar a lambda apontada diretamente para o objeto criado a partir da interface. 
