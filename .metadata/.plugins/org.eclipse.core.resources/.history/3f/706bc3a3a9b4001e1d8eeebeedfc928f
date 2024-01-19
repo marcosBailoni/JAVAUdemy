@@ -1,0 +1,44 @@
+package lambdas;
+
+import java.util.function.BinaryOperator;
+import java.util.function.UnaryOperator;
+
+public class Desafio {
+	
+	public static void main(String[] args) {
+		
+		Produto p1 = new Produto("iPad", 3235.0, 0.13);
+	
+		BinaryOperator<Double> precoComDesconto = (preco, desconto) -> (1 - desconto) * preco;
+		
+		System.out.println(precoComDesconto.apply(p1.preco, p1.desconto));
+	
+		UnaryOperator<Double> precoComImposto = preco -> preco < 2500 ? preco : preco * (1 - 0.085);
+		
+		System.out.println(precoComImposto.apply(p1.preco));
+		
+		UnaryOperator<Double> precoComFrete = preco -> preco >= 3000 ? preco + 100 : preco + 50;
+		
+		System.out.println(precoComFrete.apply(p1.preco));
+		
+		System.out.println(Math.round(2960.025));
+	
+	
+	
+	
+	}
+}
+
+
+
+
+
+
+
+
+
+//a partir do produto calcular o preco real (com desconto)
+//Imposto >= 2500 (8,5%) / < 2500 (isento)
+//Frete >= 3000 (100) / <3000 (50)
+// dEIXAR DUAS CASAS DECIMAIS;
+//Formatar: + "R$"

@@ -1,8 +1,0 @@
-package oo.polimorfismo;
-
-public class Sorvete extends Comida {
-
-	Sorverte(double peso){
-		super(peso);
-	}
-}
