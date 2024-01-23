@@ -1,0 +1,30 @@
+package streams;
+
+
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+
+public class ImprimindoObjetos {
+	
+	public static void main(String[] args) {
+		
+		List<String> aprovados = Arrays.asList("Gui", "Luca", "Karen", "Julio");
+		System.out.println("Imprimindo pelo MethodReference direto: ");
+		aprovados.forEach(System.out::println);
+		
+		
+		System.out.println("\nImprimindo pelo Foreach direto: ");
+		for (String nome: aprovados) {
+			System.out.println(nome);
+		}
+		
+		Iterator<String> iterator = aprovados.iterator();
+			while(iterator.hasNext()) {
+				System.out.println();
+			}
+	
+	
+	}
+
+}
