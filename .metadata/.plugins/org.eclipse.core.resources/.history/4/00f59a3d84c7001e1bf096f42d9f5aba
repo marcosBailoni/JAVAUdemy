@@ -1,0 +1,23 @@
+package excecao;
+
+public class Basico {
+
+	public static void main(String[] args) {
+		
+		Aluno a1 = null;
+		
+		try {
+			System.out.println(a1.nome);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		try {
+			System.out.println(a1.nome);
+		} catch (Exception e) {
+			System.out.println("Erro para imprimir o nome do Aluno!!!");;
+		}
+
+		System.out.println("Fim");
+	}
+}
