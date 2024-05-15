@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="set"/>
 			<item value="lambda"/>
 		</list>
 		<list key="replacehistory">
