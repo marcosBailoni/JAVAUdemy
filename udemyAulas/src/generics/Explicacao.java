@@ -9,4 +9,11 @@ public class Explicacao {
 //	Por exemplo, uma lista de objetos, recebe um index 0 = "Ola Mundo", ao armazenar o indice 0 em outra váriavel, precisa fazer o cast.
 // ex - String a = (String) lista.get(0); no generics, a lista teria sido criado como <String>, para não ter que fazer o cast.
 	
+	
+	
+//	1 - CaixaObject
+//	2 - CaixaGenerics
+//	3 - Caixanumero
+//	4 - CaixaIntFilha
+//	5 - Listas
 }
