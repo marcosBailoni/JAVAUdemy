@@ -3,11 +3,16 @@ package visao;
 import java.awt.Color;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
+import javax.swing.JButton;
 import javax.swing.JPanel;
 
+import modelo.Memoria;
+
 @SuppressWarnings("serial")
-public class Teclado extends JPanel{
+public class Teclado extends JPanel implements ActionListener{
 	
 	private final Color COR_CINZA_ESCURO = new Color(68, 68, 68);
 	private final Color COR_CINZA_CLARO= new Color(99, 99, 99);
@@ -64,6 +69,23 @@ public class Teclado extends JPanel{
 		c.gridx = x;
 		c.gridy = y;
 		Botao botao = new Botao(texto, cor);
+		
+		botao.addActionListener(this); // sempre que clicar no botão, irá usar o método implementado abaixo
 		add(botao, c);		
+	}
+
+		
+//	Resumindo o método abaixo:
+//		O método actionPerformed é chamado quando um evento de ação ocorre.
+//		Ele verifica se a fonte do evento é um JButton.
+//		Se for, ele converte a fonte do evento para JButton.
+//		Finalmente, ele imprime o texto do botão no console.
+	
+	public void actionPerformed(ActionEvent e) {
+		if(e.getSource() instanceof JButton) {  // getSource retorna o objeto que gerou o evento, instance of Jbutton, verifica se é uma instancia de jButton, para ver se é um evento de ação relacionado a botão.
+			JButton botao = (JButton) e.getSource(); // se for, converte e.getSource(Objeto) para o tipo JButton, 
+			Memoria.getInstancia().processarComando(botao.getText());
+		}
+		
 	}
 }

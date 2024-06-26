@@ -7,14 +7,20 @@ import java.awt.Font;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+import modelo.Memoria;
+import modelo.MemoriaObservador;
+
 @SuppressWarnings("serial")
-public class Display extends JPanel{
+public class Display extends JPanel implements MemoriaObservador{
 	
 	private final JLabel label; // define o label -> será os números que aparecerão no display
 	
 	//Construtor: 
 	public Display() {
-		label = new JLabel("2324,123"); // cria o label;
+		
+		Memoria.getInstancia().adicionarObservador(this);
+		
+		label = new JLabel(Memoria.getInstancia().getTextoAtual()); // cria o label; retorna o texto atual da instancia;
 		
 		setBackground(new Color(64, 49, 50)); //definir a cor do display
 
@@ -28,6 +34,13 @@ public class Display extends JPanel{
 		
 		
 	
+	}
+
+	
+	public void valorAlterado(String novoValor) {
+		
+		label.setText(novoValor); 
+		
 	}
 
 }
