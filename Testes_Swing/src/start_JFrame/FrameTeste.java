@@ -27,7 +27,7 @@ public class FrameTeste {
 		//A parte abaixo criará um objeto MyFrame, que já tem todas esses sets acima configurados na classe  MyFrame
 		
 		@SuppressWarnings("unused")
-		MyFrame meuFrame = new MyFrame();
+		FrameMine meuFrame = new FrameMine();
 		
 	}
 

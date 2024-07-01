@@ -6,9 +6,9 @@ import java.awt.Dimension;
 import javax.swing.JFrame;
 
 @SuppressWarnings("serial")
-public class MyFrame extends JFrame {
+public class FrameMine extends JFrame {
 
-	MyFrame() {
+	FrameMine() {
 
 		Dimension dimensaoTela = new Dimension(450, 450); // variavel do tipo dimension		
 
