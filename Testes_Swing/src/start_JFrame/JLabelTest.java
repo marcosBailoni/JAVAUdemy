@@ -24,14 +24,14 @@ public class JLabelTest {
 		label.setText("Dude, do you even code ?"); // setar texto do label
 		label.setIcon(image); // setando uma imagem no label
 		label.setHorizontalTextPosition(JLabel.CENTER); // SETA a posicao do texto em relação a imagem; CENTER/LEFT/RIGHT
-		label.setVerticalTextPosition(JLabel.TOP); // seta a pocai vertical do texto em relação a imagem; CENTER/TOP/BOTTOM
+		label.setVerticalTextPosition(JLabel.TOP); // seta a po vertical do texto em relação a imagem; CENTER/TOP/BOTTOM
 		label.setHorizontalAlignment(JLabel.CENTER); // seta conteúdo do label no centro 
 		label.setForeground(new Color(0,0,255)); // setar cor do texto
 		label.setFont(new Font("MV Boli", Font.PLAIN, 20)); // setar fonte do texto
 		label.setIconTextGap(-25); // Gap = brecha, espaçamento entre imagem e texto
 		label.setBackground(Color.BLACK); // seta a cor do background do label = preto, 
 		label.setOpaque(true); // seta a visibilidade do background do display como verdadeira (vai aparecer na tela) 
-		// 1 - label.setBounds(0, 0, 400, 400); // setar posicionamento(x, y) e a dimensão do label (largura. altura) (layout null)
+		//****** 1 - label.setBounds(0, 0, 400, 400); // setar posicionamento(x, y) e a dimensão do label (largura. altura) (layout null)
 		label.setBorder(border); //setar a bordar criada anteriormente para o label.
 		
 		JFrame frame = new JFrame(); 		
@@ -41,8 +41,9 @@ public class JLabelTest {
 		frame.setSize(700,500);
 		frame.setLocationRelativeTo(null);
 		frame.getContentPane().setBackground(Color.ORANGE);
-		frame.add(label); // adicionando label ao JFrame
-		// 1 - frame.setLayout(null); // irá setar o layout, null = desabilitar o gerenciamento de layout. Com isso, precisa ajustar todo posicionamento manualmente
+		frame.add(label); // adicionando label ao JFrame 
+		//***** 1 - frame.setLayout(null); // irá setar o layout, null = desabilitar o gerenciamento de layout. Com isso, precisa ajustar todo posicionamento manualmente
+		//***** -> Por default é BorderLayout
 		frame.pack(); // calcula o tamanho da janela com base nos componentes (ficará no tamanho exato para comportar tudo); Ignora o size do frame
 		// ** se usar o frame.pack(); o frame ficara do tamanho do label, logo, não aparecerá o background do frame, já que o label estará por cima
 		// ** sobre o pack, usar ele depois das linhas que adicionam os componentes no frame
