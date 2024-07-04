@@ -31,7 +31,6 @@
     <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="generics.pares.Pares"/>
     <fullyQualifiedTypeName name="contatos.Contato"/>
-    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
     <fullyQualifiedTypeName name="campo_minado.modelo.Campo"/>
     <fullyQualifiedTypeName name="campo_minado.modelo.CampoObservador"/>
     <fullyQualifiedTypeName name="campo_minado.visao.PainelTabuleiro"/>
@@ -42,7 +41,6 @@
     <fullyQualifiedTypeName name="campo_minado.modelo.CampoEvento"/>
     <fullyQualifiedTypeName name="visao.Calculadora"/>
     <fullyQualifiedTypeName name="visao.Teclado"/>
-    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
     <fullyQualifiedTypeName name="javax.swing.GrayFilter"/>
     <fullyQualifiedTypeName name="java.awt.GridBagLayout"/>
     <fullyQualifiedTypeName name="java.awt.GridBagConstraints"/>
@@ -56,8 +54,10 @@
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="javax.swing.JLabel"/>
-    <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="java.awt.Font"/>
     <fullyQualifiedTypeName name="javax.swing.BorderFactory"/>
     <fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
 </qualifiedTypeNameHistroy>
