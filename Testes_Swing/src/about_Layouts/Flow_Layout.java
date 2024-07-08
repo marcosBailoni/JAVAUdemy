@@ -12,6 +12,9 @@ public class Flow_Layout {
 	
 	public static void main(String[] args) {
 		
+		// flow layout = ajusta os componentes por linha, usando o preferred size.
+		// se o container horizontal é pequeno para comportar o componente, usa a próxima linha. 
+		
 		JFrame frame = new JFrame();
 		
 		JPanel panel = new JPanel();
