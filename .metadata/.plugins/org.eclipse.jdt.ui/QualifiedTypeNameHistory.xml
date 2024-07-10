@@ -34,14 +34,12 @@
     <fullyQualifiedTypeName name="campo_minado.visao.PainelTabuleiro"/>
     <fullyQualifiedTypeName name="java.awt.GridLayout"/>
     <fullyQualifiedTypeName name="java.util.function.Consumer"/>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="javax.swing.SwingUtilities"/>
     <fullyQualifiedTypeName name="campo_minado.modelo.CampoEvento"/>
     <fullyQualifiedTypeName name="visao.Calculadora"/>
     <fullyQualifiedTypeName name="visao.Teclado"/>
     <fullyQualifiedTypeName name="javax.swing.GrayFilter"/>
     <fullyQualifiedTypeName name="java.awt.GridBagConstraints"/>
-    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="modelo.MemoriaObservador"/>
@@ -58,6 +56,8 @@
     <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
     <fullyQualifiedTypeName name="java.awt.GridBagLayout"/>
     <fullyQualifiedTypeName name="java.awt.event.MouseEvent"/>
-    <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="javax.swing.JLayeredPane"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>
