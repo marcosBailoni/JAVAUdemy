@@ -6,8 +6,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="layout"/>
+		<item key="selection" value="Check"/>
 		<list key="findhistory">
+			<item value="mark"/>
+			<item value="check"/>
+			<item value="checked"/>
+			<item value="is"/>
 			<item value="layout"/>
 			<item value="lay"/>
 			<item value="bord"/>
